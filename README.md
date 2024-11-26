@@ -1,4 +1,4 @@
-# Invoice data processing with Mistral LLM on local CPU
+# Entity parsing and processing with Mistral LLM on local CPU
 
 ## Quickstart
 
@@ -14,10 +14,11 @@
 
 5. Run the script, to process data with Mistral LLL and return the answer: 
 
-`python main.py "retrieve invoice number value"`
+`python main.py "{Enter your Query Here}"`
 
 ## Future Improvements
 1. Finally converting response to csv after data sanitization check
 2. Improving runtime efficiency, better to adapt for gpu
 3. Experiment with better LLM Models.
+4. Add support for different modalities other than pdf.
 
