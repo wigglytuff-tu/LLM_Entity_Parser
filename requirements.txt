@@ -1,3 +1,4 @@
+streamlit
 ctransformers
 faiss-cpu
 langchain==0.0.331
